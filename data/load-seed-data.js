@@ -5,8 +5,9 @@ const coordinates = require('./coordinates.js');
 const location_guesses = require('./location_guesses.js');
 const sessions = require('./sessions.js');
 const usersData = require('./users.js');
-const { getEmoji } = require('../lib/emoji.js');
 const locations = require('./locations.js');
+const { getEmoji } = require('../lib/emoji.js');
+
 
 run();
 
@@ -40,7 +41,7 @@ async function run() {
     );
 
     await Promise.all(
-      await locations.map(location => {
+      locations.map(location => {
         const { country, region, city, longitude, latitude, currency_symbol, sunrise, sunset, time_zone, image_url } = location;
         return client.query(`
                     INSERT INTO locations (country, region, city, longitude, latitude, currency_symbol, sunrise, sunset, time_zone, image_url)
