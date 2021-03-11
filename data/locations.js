@@ -1,6 +1,6 @@
 module.exports = [
   {
-    country: 'PT',
+    country: 'Portugal',
     region: 'Regiao Autonoma dos Acores',
     city: 'Madalena',
     latitude: '38.5364',
@@ -12,7 +12,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=38.5345458,-28.5296401&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'PT',
+    country: 'Portugal',
     region: 'Aveiro',
     city: 'Aveiro',
     latitude: '40.6443',
@@ -24,7 +24,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=40.6417474,-8.655572&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'ES',
+    country: 'Spain',
     region: 'Illes Balears',
     city: 'Llubi',
     latitude: '39.6993',
@@ -36,7 +36,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=39.6941744,3.0159808&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'PH',
+    country: 'Philippines',
     region: 'National Capital Region',
     city: 'Cefels Park Subdivision Number Second',
     latitude: '14.6905',
@@ -48,7 +48,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=14.6923634,121.037551&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'GU',
+    country: 'Guam',
     region: 'Tamuning-Tumon-Harmon Municipality',
     city: 'Tamuning-Tumon-Harmon Village',
     latitude: '13.4877',
@@ -60,7 +60,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=13.4945854,144.7795226&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'ID',
+    country: 'Indonesia',
     region: 'Jawa Tengah',
     city: 'Panggung Kidul',
     latitude: '-6.9653',
@@ -72,7 +72,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-6.9506496,110.4126437&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'ID',
+    country: 'Indonesia',
     region: 'Bali',
     city: 'Tegalalang',
     latitude: '-8.4366',
@@ -84,7 +84,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-8.4244969,115.2796409&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'PG',
+    country: 'Papua New Guinea',
     region: 'Central',
     city: 'Tupuseleia',
     latitude: '-9.54933',
@@ -96,7 +96,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-9.5486295,147.316854&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'AU',
+    country: 'Australia',
     region: 'Queensland',
     city: 'Cairns City',
     latitude: '-16.9207',
@@ -108,7 +108,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-16.9228728,145.7748026&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'AU',
+    country: 'Australia',
     region: 'Northern Territory',
     city: 'Ciccone',
     latitude: '-23.6915',
@@ -120,7 +120,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-23.689695,133.8757475&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'AU',
+    country: 'Australia',
     region: 'Northern Territory',
     city: 'East Point',
     latitude: '-12.4107',
@@ -132,7 +132,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-12.4066162,130.8203761&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'SB',
+    country: 'Solomon Islands',
     region: 'Guadalcanal',
     city: 'Kombito',
     latitude: '-9.43333',
@@ -144,7 +144,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-9.4308141,159.990301&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'PF',
+    country: 'French Polynesia',
     region: 'Iles Sous-le-Vent',
     city: 'Vaiea',
     latitude: '-16.4526',
@@ -156,7 +156,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-16.4571485,-152.2504824&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'PF',
+    country: 'French Polynesia',
     region: 'Iles du Vent',
     city: 'Mariuti',
     latitude: '-17.5833',
@@ -168,7 +168,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-17.6509195,-149.4260421&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'UM',
+    country: 'United States Minor Outlying Islands',
     region: 'Midway Islands',
     city: 'Midway',
     latitude: '28.2122',
@@ -180,7 +180,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=28.203654,-177.3751322&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'FJ',
+    country: 'Fiji',
     region: 'Western',
     city: 'Rabulu',
     latitude: '-17.4339',
@@ -192,7 +192,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-17.4324823,177.9313439&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'AS',
+    country: 'American Samoa',
     region: 'Eastern District',
     city: 'Anua',
     latitude: '-14.2694',
@@ -204,7 +204,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-14.2708843,-170.6982567&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'TO',
+    country: 'Tonga',
     region: 'Tongatapu',
     city: 'Nuku\'alofa',
     latitude: '-21.1394',
@@ -216,7 +216,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-21.1353461,-175.2031674&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'NZ',
+    country: 'New Zealand',
     region: 'Auckland',
     city: 'Grey Lynn',
     latitude: '-36.8649',
@@ -228,7 +228,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-36.8616632,174.7429842&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'NZ',
+    country: 'New Zealand',
     region: 'Northland',
     city: 'Riverside',
     latitude: '-35.7234',
