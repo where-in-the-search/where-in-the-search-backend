@@ -1,12 +1,13 @@
 const client = require('../lib/client');
 // import our seed data:
 const characters = require('./characters.js');
-const locations = require('./locations.js');
 const coordinates = require('./coordinates.js');
 const location_guesses = require('./location_guesses.js');
 const sessions = require('./sessions.js');
 const usersData = require('./users.js');
+const locations = require('./locations.js');
 const { getEmoji } = require('../lib/emoji.js');
+
 
 run();
 
@@ -41,12 +42,12 @@ async function run() {
 
     await Promise.all(
       locations.map(location => {
-        const { country, region, city, longitude, latitude, currency_symbol, sunrise, sunset, time_zone, hints, image_url } = location;
+        const { country, region, city, longitude, latitude, currency_symbol, sunrise, sunset, time_zone, image_url } = location;
         return client.query(`
-                    INSERT INTO locations (country, region, city, longitude, latitude, currency_symbol, sunrise, sunset, time_zone, hints, image_url)
-                    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11);
+                    INSERT INTO locations (country, region, city, longitude, latitude, currency_symbol, sunrise, sunset, time_zone, image_url)
+                    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10);
                 `,
-        [country, region, city, longitude, latitude, currency_symbol, sunrise, sunset, time_zone, hints, image_url]);
+        [country, region, city, longitude, latitude, currency_symbol, sunrise, sunset, time_zone, image_url]);
       })
     );
 

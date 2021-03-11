@@ -25,7 +25,6 @@ async function run() {
                 );     
                 CREATE TABLE locations (
                   id SERIAL PRIMARY KEY NOT NULL,
-                  hints text[] NOT NULL,
                   country VARCHAR(512) NOT NULL,
                   region VARCHAR(512) NOT NULL,
                   city VARCHAR(512) NOT NULL,
