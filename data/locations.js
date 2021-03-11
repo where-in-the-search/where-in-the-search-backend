@@ -637,6 +637,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=53.2688113,-9.0658142&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
+
     country: 'United Kingdom of Great Britain and Northern Ireland',
     region: 'England',
     city: 'Salford',
@@ -673,7 +674,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=43.7730946,11.2553645&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'HR',
+    country: 'Croatia',
     region: 'Grad Zagreb',
     city: 'Zagreb',
     latitude: '45.8144',
