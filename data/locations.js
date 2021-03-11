@@ -686,7 +686,7 @@ module.exports = [
   {
     country: 'Hungary',
     region: 'Pest',
-    city: 'Martonhegy',
+    city: 'Budapest',
     latitude: '47.4947',
     longitude: '18.9957',
     currency_symbol: 'Ft',
@@ -794,7 +794,7 @@ module.exports = [
   {
     country: 'Colombia',
     region: 'Distrito Capital de Bogota',
-    city: 'Niza',
+    city: 'Bogota',
     latitude: '4.70705',
     longitude: '-74.0763',
     currency_symbol: '$',
@@ -950,7 +950,7 @@ module.exports = [
   {
     country: 'Chile',
     region: 'Región Metropolitana de Santiago',
-    city: 'Barrio Brazil',
+    city: 'Santiago',
     latitude: '-33.4384',
     longitude: '-70.6665',
     currency_symbol: '$',
@@ -962,7 +962,7 @@ module.exports = [
   {
     country: 'Brazil',
     region: 'Distrito Federal',
-    city: 'Setor Hoteleiro Sul',
+    city: 'Brasilia',
     latitude: '-15.7944',
     longitude: '-47.8898',
     currency_symbol: 'Cz$',
