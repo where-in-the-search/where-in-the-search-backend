@@ -1,6 +1,6 @@
 module.exports = [
   {
-    country: 'PT',
+    country: 'Portugal',
     region: 'Regiao Autonoma dos Acores',
     city: 'Madalena',
     latitude: '38.5364',
@@ -12,7 +12,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=38.5345458,-28.5296401&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'PT',
+    country: 'Portugal',
     region: 'Aveiro',
     city: 'Aveiro',
     latitude: '40.6443',
@@ -24,7 +24,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=40.6417474,-8.655572&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'ES',
+    country: 'Spain',
     region: 'Illes Balears',
     city: 'Llubi',
     latitude: '39.6993',
@@ -36,7 +36,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=39.6941744,3.0159808&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'PH',
+    country: 'Philippines',
     region: 'National Capital Region',
     city: 'Cefels Park Subdivision Number Second',
     latitude: '14.6905',
@@ -48,7 +48,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=14.6923634,121.037551&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'GU',
+    country: 'Guam',
     region: 'Tamuning-Tumon-Harmon Municipality',
     city: 'Tamuning-Tumon-Harmon Village',
     latitude: '13.4877',
@@ -60,7 +60,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=13.4945854,144.7795226&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'ID',
+    country: 'Indonesia',
     region: 'Jawa Tengah',
     city: 'Panggung Kidul',
     latitude: '-6.9653',
@@ -72,7 +72,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-6.9506496,110.4126437&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'ID',
+    country: 'Indonesia',
     region: 'Bali',
     city: 'Tegalalang',
     latitude: '-8.4366',
@@ -84,7 +84,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-8.4244969,115.2796409&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'PG',
+    country: 'Papua New Guinea',
     region: 'Central',
     city: 'Tupuseleia',
     latitude: '-9.54933',
@@ -96,7 +96,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-9.5486295,147.316854&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'AU',
+    country: 'Australia',
     region: 'Queensland',
     city: 'Cairns City',
     latitude: '-16.9207',
@@ -108,7 +108,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-16.9228728,145.7748026&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'AU',
+    country: 'Australia',
     region: 'Northern Territory',
     city: 'Ciccone',
     latitude: '-23.6915',
@@ -120,7 +120,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-23.689695,133.8757475&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'AU',
+    country: 'Australia',
     region: 'Northern Territory',
     city: 'East Point',
     latitude: '-12.4107',
@@ -132,7 +132,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-12.4066162,130.8203761&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'SB',
+    country: 'Solomon Islands',
     region: 'Guadalcanal',
     city: 'Kombito',
     latitude: '-9.43333',
@@ -144,7 +144,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-9.4308141,159.990301&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'PF',
+    country: 'French Polynesia',
     region: 'Iles Sous-le-Vent',
     city: 'Vaiea',
     latitude: '-16.4526',
@@ -156,7 +156,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-16.4571485,-152.2504824&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'PF',
+    country: 'French Polynesia',
     region: 'Iles du Vent',
     city: 'Mariuti',
     latitude: '-17.5833',
@@ -168,7 +168,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-17.6509195,-149.4260421&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'UM',
+    country: 'United States Minor Outlying Islands',
     region: 'Midway Islands',
     city: 'Midway',
     latitude: '28.2122',
@@ -180,7 +180,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=28.203654,-177.3751322&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'FJ',
+    country: 'Fiji',
     region: 'Western',
     city: 'Rabulu',
     latitude: '-17.4339',
@@ -192,7 +192,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-17.4324823,177.9313439&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'AS',
+    country: 'American Samoa',
     region: 'Eastern District',
     city: 'Anua',
     latitude: '-14.2694',
@@ -204,7 +204,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-14.2708843,-170.6982567&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'TO',
+    country: 'Tonga',
     region: 'Tongatapu',
     city: 'Nuku\'alofa',
     latitude: '-21.1394',
@@ -216,7 +216,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-21.1353461,-175.2031674&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'NZ',
+    country: 'New Zealand',
     region: 'Auckland',
     city: 'Grey Lynn',
     latitude: '-36.8649',
@@ -228,7 +228,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-36.8616632,174.7429842&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'NZ',
+    country: 'New Zealand',
     region: 'Northland',
     city: 'Riverside',
     latitude: '-35.7234',
@@ -240,7 +240,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-35.724902,174.3267345&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'AU',
+    country: 'Australia',
     region: 'Queensland',
     city: 'Camp Hill',
     latitude: '-27.4935',
@@ -252,7 +252,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-27.50047,153.0767955&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'AU',
+    country: 'Australia',
     region: 'South Australia',
     city: 'Adelaide Hills',
     latitude: '-34.9112',
@@ -264,7 +264,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-34.9036241,138.7058221&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'AU',
+    country: 'Australia',
     region: 'Tasmania',
     city: 'Battery Point',
     latitude: '-42.8899',
@@ -276,7 +276,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-42.9086486,147.3457339&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'MP',
+    country: 'Northern Mariana Islands',
     region: 'Saipan Municipality',
     city: 'Muchot',
     latitude: '15.2152',
@@ -288,7 +288,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=15.2140168,145.7184588&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'JP',
+    country: 'Japan',
     region: 'Okinawa',
     city: 'Tobaru',
     latitude: '26.3369',
@@ -300,7 +300,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=26.3412602,127.820169&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'TW',
+    country: 'Taiwan',
     region: 'Taipei',
     city: 'Wugu',
     latitude: '25.084',
@@ -312,7 +312,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=25.0804599,121.4432842&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'PH',
+    country: 'Philippines',
     region: 'Cebu',
     city: 'Tisa',
     latitude: '10.3',
@@ -324,7 +324,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=10.3015143,123.8718074&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'US',
+    country: 'United States of America',
     region: 'Hawaii',
     city: 'Hilo',
     latitude: '19.7299',
@@ -336,7 +336,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=19.7220998,-155.0869997&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'IR',
+    country: 'Iran',
     region: 'Esfahan',
     city: 'Kuy-e Mohammad Rasulollah',
     latitude: '33.9678',
@@ -348,7 +348,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=33.9786053,51.4451635&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'IR',
+    country: 'Iran',
     region: 'Tehran',
     city: 'Shahrak-e Erazi-ye Nowsazi-ye `Abbasabad',
     latitude: '35.7448',
@@ -360,7 +360,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=35.7396148,51.4097362&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'AF',
+    country: 'Afghanistan',
     region: 'Kabul',
     city: 'Qal\'ah-ye Fathullah',
     latitude: '34.5407',
@@ -372,7 +372,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=34.542095,69.1677133&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'TR',
+    country: 'Turkey',
     region: 'Istanbul',
     city: 'Beyazit',
     latitude: '41.0101',
@@ -384,7 +384,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=41.0095442,28.9664423&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'KE',
+    country: 'Kenya',
     region: 'Nairobi City',
     city: 'Park View',
     latitude: '-1.37693',
@@ -396,7 +396,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-1.3757491,36.744667&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'MA',
+    country: 'Morocco',
     region: 'Marrakech-Safi',
     city: 'Medina',
     latitude: '31.6205',
@@ -408,7 +408,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=31.6234881,-7.9944052&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'GH',
+    country: 'Ghana',
     region: 'Greater Accra',
     city: 'Airport Residential Area',
     latitude: '5.60644',
@@ -420,7 +420,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=5.6010789,-0.1767868&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'ZA',
+    country: 'South Africa',
     region: 'Western Cape',
     city: 'Cape Town',
     latitude: '-33.9258',
@@ -432,7 +432,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-33.9254195,18.4243539&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'BF',
+    country: 'Burkina Faso',
     region: 'Kadiogo',
     city: 'Ouagadougou',
     latitude: '12.3657',
@@ -444,7 +444,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=12.36858,-1.527895&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'ER',
+    country: 'Eritrea',
     region: 'Al Awsat',
     city: 'Asmara',
     latitude: '15.338',
@@ -456,7 +456,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=15.3363219,38.9384396&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'ET',
+    country: 'Ethiopia',
     region: 'Adis Abeba',
     city: 'Addis Ababa',
     latitude: '9.02497',
@@ -468,7 +468,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=9.0252468,38.7649906&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'UG',
+    country: 'Uganda',
     region: 'Kampala',
     city: 'Bakuli',
     latitude: '0.31247',
@@ -479,8 +479,9 @@ module.exports = [
     time_zone: '+03:00',
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=0.3147273,32.564867&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
+  //
   {
-    country: 'MA',
+    country: 'Morocco',
     region: 'Casablanca-Settat',
     city: 'El Hank',
     latitude: '33.6048',
@@ -492,7 +493,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=33.607003,-7.6323844&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'EG',
+    country: 'Egypt',
     region: 'Al Jizah',
     city: '`Ezbet `Abd el-Hamid',
     latitude: '29.95',
@@ -504,7 +505,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=29.9760742,31.1017418&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'YE',
+    country: 'Yemen',
     region: 'Hadramawt',
     city: 'Shibam',
     latitude: '15.9269',
@@ -612,7 +613,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=53.3384342,-6.2392886&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'Ireland',
+    country: 'United Kingdom of Great Britain and Northern Ireland',
     region: 'Northern Ireland',
     city: 'Belfast City Centre',
     latitude: '54.5963',
@@ -636,7 +637,8 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=53.2688113,-9.0658142&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'Great Britain',
+
+    country: 'United Kingdom of Great Britain and Northern Ireland',
     region: 'England',
     city: 'Salford',
     latitude: '53.4877',
@@ -686,7 +688,7 @@ module.exports = [
   {
     country: 'Hungary',
     region: 'Pest',
-    city: 'Martonhegy',
+    city: 'Budapest',
     latitude: '47.4947',
     longitude: '18.9957',
     currency_symbol: 'Ft',
@@ -696,7 +698,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=47.4945457,18.987253&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'Bosnia',
+    country: 'Bosnia and Herzegovina',
     region: 'Federacija Bosne i Hercegovine',
     city: 'Lipe',
     latitude: '43.8508',
@@ -792,9 +794,9 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-33.0313425,-71.6309433&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'Croatia',
+    country: 'Colombia',
     region: 'Distrito Capital de Bogota',
-    city: 'Niza',
+    city: 'Bogota',
     latitude: '4.70705',
     longitude: '-74.0763',
     currency_symbol: '$',
@@ -924,7 +926,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-34.9023076,-56.1639934&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'CL',
+    country: 'Chile',
     region: 'Magallanes',
     city: 'La Victorina',
     latitude: '-50.831',
@@ -936,7 +938,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-50.8831765,-73.071624&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'PE',
+    country: 'Peru',
     region: 'El Callao',
     city: 'Chucuito',
     latitude: '-12.0633',
@@ -948,9 +950,9 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-12.061532,-77.148877&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'CL',
+    country: 'Chile',
     region: 'Región Metropolitana de Santiago',
-    city: 'Barrio Brazil',
+    city: 'Santiago',
     latitude: '-33.4384',
     longitude: '-70.6665',
     currency_symbol: '$',
@@ -960,9 +962,9 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-33.4384729,-70.6510455&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'BR',
+    country: 'Brazil',
     region: 'Distrito Federal',
-    city: 'Setor Hoteleiro Sul',
+    city: 'Brasilia',
     latitude: '-15.7944',
     longitude: '-47.8898',
     currency_symbol: 'Cz$',
@@ -972,7 +974,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-15.7890248,-47.8964742&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'PY',
+    country: 'Paraguay',
     region: 'Asuncion',
     city: 'San Cristobal',
     latitude: '-25.2953',
@@ -984,7 +986,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-25.2967526,-57.5739731&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'AR',
+    country: 'Argentina',
     region: 'Cordoba',
     city: 'Cordoba',
     latitude: '-31.4135',
@@ -996,7 +998,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-31.4299783,-64.1809637&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'MX',
+    country: 'Mexico',
     region: 'Ciudad de Mexico',
     city: 'Colonia Juarez',
     latitude: '19.4293',
@@ -1008,7 +1010,7 @@ module.exports = [
     image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=19.4285888,-99.1641107&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
   },
   {
-    country: 'MX',
+    country: 'Mexico',
     region: 'Jalisco',
     city: 'Aramara',
     latitude: '20.6521',
@@ -1021,4 +1023,3 @@ module.exports = [
   }
 ];
 
-    
