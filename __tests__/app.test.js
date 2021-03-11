@@ -5,6 +5,7 @@ const { execSync } = require('child_process');
 const fakeRequest = require('supertest');
 const app = require('../lib/app');
 const client = require('../lib/client');
+const locations = require('../data/locations.js');
 const { shapeLocations } = require('../lib/munge-utils.js');
 
 describe('app routes', () => {
@@ -264,7 +265,91 @@ describe('app routes', () => {
       expect(data.body).toEqual(expectation);
     });
 
-    test.only('takes in coordinates and populates an array of shaped location data', async () => {
+    test('gets all locations', async () => {
+
+      const expectation = [
+        {
+          ...locations[0],
+          id: 1
+        },
+        {
+          ...locations[1],
+          id: 2
+        },
+        {
+          ...locations[2],
+          id: 3
+        },
+        {
+          ...locations[3],
+          id: 4
+        },
+        {
+          ...locations[4],
+          id: 5
+        }
+      ];
+      
+      const data = await fakeRequest(app)
+        .get('/locations')
+        .expect('Content-Type', /json/)
+        .expect(200);
+
+      const sample = data.body.slice(0, 5);
+
+      expect(sample).toEqual(expectation);
+      expect(data.body.length).toEqual(locations.length);
+    });
+
+    test('gets a location by its ID', async () => {
+      const expectation = {
+        ...locations[4],
+        id: 5
+      };
+
+      const data = await fakeRequest(app)
+        .get('/locations/5')
+        .expect('Content-Type', /json/)
+        .expect(200);
+
+      expect(data.body).toEqual(expectation);
+    });
+
+    // skipping due to changes in how the location table is being populated; we will no longer use post, only seed as part of database setup
+    test.skip('posts a new location', async () => {
+      const newLocation = {
+        country: 'Costa Rica',
+        region: 'Alajuela',
+        city: 'Palmares',
+        longitude: '-134.5689',
+        latitude: '43.6589',
+        currency_symbol: '₡',
+        sunrise: '7:04AM',
+        sunset: '6:40PM',
+        time_zone: '+02:00',
+        hints: [
+          'thyt',
+          'gryt'
+        ],
+        image_url: 'nothing.com'
+      };
+
+      const expectation = {
+        ...newLocation,
+        id: 6
+      };
+
+      const data = await fakeRequest(app)
+        .post('/locations')
+        .send(newLocation)
+        .expect('Content-Type', /json/)
+        .expect(200);
+
+      expect(data.body).toEqual(expectation);
+    });
+
+    // skipping because it has already succeeded and been used to seed the locations table
+    test.skip('takes in coordinates and populates an array of shaped location data', async () => {
       const expectation = [
         {
           country: 'PT',
@@ -306,137 +391,6 @@ describe('app routes', () => {
       const actual = await shapeLocations(coordinates);
       
       expect(actual).toEqual(expectation);
-    });
-
-
-
-    test('gets a set of guesses for a location as the test user', async () => {
-      const expectation = [
-        {
-          id: 1,
-          country: 'Ukraine',
-          region: 'Odessa',
-          city: 'Odessa',
-          longitude: '-134.5689',
-          latitude: '43.6589',
-          currency_symbol: '₴',
-          sunrise: '7:04AM',
-          sunset: '6:40PM',
-          time_zone: '+02:00',
-          hints: [
-            'thyt',
-            'gryt'
-          ],
-          image_url: 'nothing.com'
-        },
-        {
-          id: 2,
-          country: 'USA',
-          region: 'Oregon',
-          city: 'Portland',
-          longitude: '-134.5689',
-          latitude: '43.6589',
-          currency_symbol: '$',
-          sunrise: '7:04AM',
-          sunset: '6:40PM',
-          time_zone: '+02:00',
-          hints: [
-            'thyt',
-            'gryt'
-          ],
-          image_url: 'nothing.com'
-        },
-        {
-          id: 3,
-          country: 'German',
-          region: 'North Rhine-Westphalia',
-          city: 'Dusseldorf',
-          longitude: '-134.5689',
-          latitude: '43.6589',
-          currency_symbol: '€',
-          sunrise: '7:04AM',
-          sunset: '6:40PM',
-          time_zone: '+02:00',
-          hints: [
-            'thyt',
-            'gryt'
-          ],
-          image_url: 'nothing.com'
-        },
-        {
-          id: 4,
-          country: 'Australia',
-          region: 'New South Wales',
-          city: 'Sydney',
-          longitude: '-134.5689',
-          latitude: '43.6589',
-          currency_symbol: '$',
-          sunrise: '7:04AM',
-          sunset: '6:40PM',
-          time_zone: '+02:00',
-          hints: [
-            'thyt',
-            'gryt'
-          ],
-          image_url: 'nothing.com'
-        },
-        {
-          id: 5,
-          country: 'Japan',
-          region: 'Tokyo',
-          city: 'Tokyo',
-          longitude: '-134.5689',
-          latitude: '43.6589',
-          currency_symbol: '¥',
-          sunrise: '7:04AM',
-          sunset: '6:40PM',
-          time_zone: '+02:00',
-          hints: [
-            'thyt',
-            'gryt'
-          ],
-          image_url: 'nothing.com'
-        }
-      ];
-
-      const data = await fakeRequest(app)
-        .get('/locations')
-        .expect('Content-Type', /json/)
-        .expect(200);
-
-      expect(data.body).toEqual(expectation);
-    });
-
-    test('posts a new location', async () => {
-      const newLocation = {
-        country: 'Costa Rica',
-        region: 'Alajuela',
-        city: 'Palmares',
-        longitude: '-134.5689',
-        latitude: '43.6589',
-        currency_symbol: '₡',
-        sunrise: '7:04AM',
-        sunset: '6:40PM',
-        time_zone: '+02:00',
-        hints: [
-          'thyt',
-          'gryt'
-        ],
-        image_url: 'nothing.com'
-      };
-
-      const expectation = {
-        ...newLocation,
-        id: 6
-      };
-
-      const data = await fakeRequest(app)
-        .post('/locations')
-        .send(newLocation)
-        .expect('Content-Type', /json/)
-        .expect(200);
-
-      expect(data.body).toEqual(expectation);
     });
   });
 });
