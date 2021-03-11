@@ -6,11 +6,7 @@ const location_guesses = require('./location_guesses.js');
 const sessions = require('./sessions.js');
 const usersData = require('./users.js');
 const { getEmoji } = require('../lib/emoji.js');
-const request = require('superagent');
-const { shapeLocations } = require('../lib/munge-utils.js');
-
-const locations = shapeLocations(coordinates);
-
+const locations = require('./locations.js');
 
 run();
 
@@ -26,7 +22,7 @@ async function run() {
                       VALUES ($1, $2)
                       RETURNING *;
                   `,
-          [user.email, user.hash]);
+        [user.email, user.hash]);
       })
     );
 
@@ -39,7 +35,7 @@ async function run() {
                     INSERT INTO characters (description, personality, catchphrase, accessory, clothing, vague_why)
                     VALUES ($1, $2, $3, $4, $5, $6);
                 `,
-          [description, personality, catchphrase, accessory, clothing, vague_why]);
+        [description, personality, catchphrase, accessory, clothing, vague_why]);
       })
     );
 
@@ -50,7 +46,7 @@ async function run() {
                     INSERT INTO locations (country, region, city, longitude, latitude, currency_symbol, sunrise, sunset, time_zone, image_url)
                     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10);
                 `,
-          [country, region, city, longitude, latitude, currency_symbol, sunrise, sunset, time_zone, image_url]);
+        [country, region, city, longitude, latitude, currency_symbol, sunrise, sunset, time_zone, image_url]);
       })
     );
 
@@ -61,7 +57,7 @@ async function run() {
                     INSERT INTO coordinates (lat, lon)
                     VALUES ($1, $2);
                 `,
-          [lat, lon]);
+        [lat, lon]);
       })
     );
 
@@ -72,7 +68,7 @@ async function run() {
                     INSERT INTO location_guesses (guess_1, guess_1_lat_lon, guess_2, guess_2_lat_lon, guess_3, guess_3_lat_lon, guess_4, guess_4_lat_lon, found, location_id, user_id)
                     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11);
                 `,
-          [guess_1, guess_1_lat_lon, guess_2, guess_2_lat_lon, guess_3, guess_3_lat_lon, guess_4, guess_4_lat_lon, found, location_id, user.id]);
+        [guess_1, guess_1_lat_lon, guess_2, guess_2_lat_lon, guess_3, guess_3_lat_lon, guess_4, guess_4_lat_lon, found, location_id, user.id]);
       })
     );
 
@@ -83,7 +79,7 @@ async function run() {
                     INSERT INTO sessions (name, location_1, location_2, location_3, location_4, location_5, date, character_id, user_id)
                     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9);
                 `,
-          [name, location_1, location_2, location_3, location_4, location_5, date, character_id, user.id]);
+        [name, location_1, location_2, location_3, location_4, location_5, date, character_id, user.id]);
       })
     );
 
