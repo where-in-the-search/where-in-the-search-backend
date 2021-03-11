@@ -40,7 +40,7 @@ async function run() {
     );
 
     await Promise.all(
-      locations.map(location => {
+      await locations.map(location => {
         const { country, region, city, longitude, latitude, currency_symbol, sunrise, sunset, time_zone, image_url } = location;
         return client.query(`
                     INSERT INTO locations (country, region, city, longitude, latitude, currency_symbol, sunrise, sunset, time_zone, image_url)

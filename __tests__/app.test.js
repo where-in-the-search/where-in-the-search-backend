@@ -264,64 +264,49 @@ describe('app routes', () => {
       expect(data.body).toEqual(expectation);
     });
 
-    // test.only('takes in coordinates and populates an array of shaped location data', async () => {
-    //   const expectation = [
-    //     {
-    //       country: null,
-    //       region: null,
-    //       city: null,
-    //       latitude: null,
-    //       longitude: null,
-    //       currency_symbol: null,
-    //       sunrise: '06:06',
-    //       sunset: '18:13',
-    //       time_zone: '+00:00',
-    //       image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=-134.5689,43.6589&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
-    //     },
-    //     {
-    //       country: 'PT',
-    //       region: 'Regiao Autonoma dos Acores',
-    //       city: 'Madalena',
-    //       latitude: '38.5364',
-    //       longitude: '-28.5266',
-    //       currency_symbol: '€',
-    //       sunrise: '07:10',
-    //       sunset: '18:57',
-    //       time_zone: '-01:00',
-    //       image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=38.5345458,-28.5296401&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
-    //     },
-    //     {
-    //       country: 'PT',
-    //       region: 'Aveiro',
-    //       city: 'Aveiro',
-    //       latitude: '40.6443',
-    //       longitude: '-8.64554',
-    //       currency_symbol: '€',
-    //       sunrise: '06:52',
-    //       sunset: '18:36',
-    //       time_zone: '+00:00',
-    //       image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=40.6417474,-8.655572&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
-    //     }
-    //   ];
+    test.only('takes in coordinates and populates an array of shaped location data', async () => {
+      const expectation = [
+        {
+          country: 'PT',
+          region: 'Regiao Autonoma dos Acores',
+          city: 'Madalena',
+          latitude: '38.5364',
+          longitude: '-28.5266',
+          currency_symbol: '€',
+          sunrise: '07:10',
+          sunset: '18:57',
+          time_zone: '-01:00',
+          image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=38.5345458,-28.5296401&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
+        },
+        {
+          country: 'PT',
+          region: 'Aveiro',
+          city: 'Aveiro',
+          latitude: '40.6443',
+          longitude: '-8.64554',
+          currency_symbol: '€',
+          sunrise: '06:52',
+          sunset: '18:36',
+          time_zone: '+00:00',
+          image_url: 'https://maps.googleapis.com/maps/api/streetview?size=400x400&location=40.6417474,-8.655572&fov=80&heading=70&pitch=0&key=AIzaSyBV92qk6srT_OMSxMs6_vdrdvJZhh360ho'
+        }
+      ];
 
-    //   const coordinates = [{
-    //     lat: '-134.5689',
-    //     lon: '43.6589',
-    //   },
-    //   {
-    //     lat: '38.5345458',
-    //     lon: '-28.5296401',
-    //   },
-    //   {
-    //     lat: '40.6417474',
-    //     lon: '-8.655572',
-    //   }];
+      const coordinates = [
+        {
+          lat: '38.5345458',
+          lon: '-28.5296401',
+        },
+        {
+          lat: '40.6417474',
+          lon: '-8.655572',
+        }];
 
 
-    //   const actual = await shapeLocations(coordinates);
+      const actual = await shapeLocations(coordinates);
       
-    //   expect(actual).toEqual(expectation);
-    // });
+      expect(actual).toEqual(expectation);
+    });
 
 
 
