@@ -58,11 +58,7 @@ async function run() {
                 CREATE TABLE sessions (
                     id SERIAL PRIMARY KEY,
                     name VARCHAR(512) NOT NULL,
-                    location_1 INTEGER NOT NULL REFERENCES location_guesses(id),
-                    location_2 INTEGER NOT NULL REFERENCES location_guesses(id),
-                    location_3 INTEGER NOT NULL REFERENCES location_guesses(id),
-                    location_4 INTEGER NOT NULL REFERENCES location_guesses(id),
-                    location_5 INTEGER NOT NULL REFERENCES location_guesses(id),
+                    locations TEXT [] NOT NULL,
                     date VARCHAR(512) NOT NULL,
                     user_id INTEGER NOT NULL REFERENCES users(id),
                     character_id INTEGER NOT NULL REFERENCES characters(id)

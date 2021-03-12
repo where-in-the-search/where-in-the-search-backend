@@ -6,7 +6,7 @@ const fakeRequest = require('supertest');
 const app = require('../lib/app');
 const client = require('../lib/client');
 const locations = require('../data/locations.js');
-const { shapeLocations } = require('../lib/munge-utils.js');
+const { shapeLocations } = require('../data/location-seeding/munge-utils.js');
 
 describe('app routes', () => {
   describe('routes', () => {
@@ -82,12 +82,15 @@ describe('app routes', () => {
     test('creates a session as the test user', async () => {
       const newSession = {
         name: 'Chad',
-        location_1: 3,
-        location_2: 2,
-        location_3: 1,
-        location_4: 4,
-        location_5: 5,
         date: '03-08-2021',
+        locations: [
+          JSON.stringify({
+            blahblah: 'blah',
+          }),
+          JSON.stringify({
+            blahblah: 'BLAH',
+          })
+        ],
         user_id: 2,
         character_id: 1
       };
@@ -108,20 +111,21 @@ describe('app routes', () => {
     });
 
     test('gets all sessions for test user', async () => {
-      const expectation = [
-        {
-          name: 'Chad',
-          location_1: 3,
-          location_2: 2,
-          location_3: 1,
-          location_4: 4,
-          location_5: 5,
-          date: '03-08-2021',
-          character_id: 1,
-          id: 2,
-          user_id: 2
-        }
-      ];
+      const expectation = [{
+        name: 'Chad',
+        date: '03-08-2021',
+        locations: [
+          JSON.stringify({
+            blahblah: 'blah',
+          }),
+          JSON.stringify({
+            blahblah: 'BLAH',
+          })
+        ],
+        user_id: 2,
+        character_id: 1,
+        id: 2
+      }];
 
       const data = await fakeRequest(app)
         .get('/api/sessions')
@@ -135,15 +139,18 @@ describe('app routes', () => {
     test('gets a session by id', async () => {
       const expectation = {
         name: 'Chad',
-        location_1: 3,
-        location_2: 2,
-        location_3: 1,
-        location_4: 4,
-        location_5: 5,
         date: '03-08-2021',
+        locations: [
+          JSON.stringify({
+            blahblah: 'blah',
+          }),
+          JSON.stringify({
+            blahblah: 'BLAH',
+          })
+        ],
+        user_id: 2,
         character_id: 1,
-        id: 2,
-        user_id: 2
+        id: 2
       };
 
       const data = await fakeRequest(app)
@@ -158,14 +165,17 @@ describe('app routes', () => {
     test('deletes a session as the test user', async () => {
       const expectation = {
         name: 'Chad',
-        location_1: 3,
-        location_2: 2,
-        location_3: 1,
-        location_4: 4,
-        location_5: 5,
         date: '03-08-2021',
-        character_id: 1,
+        locations: [
+          JSON.stringify({
+            blahblah: 'blah',
+          }),
+          JSON.stringify({
+            blahblah: 'BLAH',
+          })
+        ],
         user_id: 2,
+        character_id: 1,
         id: 2
       };
 
