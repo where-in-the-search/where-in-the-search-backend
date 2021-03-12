@@ -6,7 +6,7 @@ const fakeRequest = require('supertest');
 const app = require('../lib/app');
 const client = require('../lib/client');
 const locations = require('../data/locations.js');
-const { shapeLocations } = require('../lib/munge-utils.js');
+const { shapeLocations } = require('../data/location-seeding/munge-utils.js');
 
 describe('app routes', () => {
   describe('routes', () => {
