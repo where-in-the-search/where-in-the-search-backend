@@ -1,3 +1,4 @@
+// this was used to seed our database, not in active use
 const request = require('superagent');
 
 function shapeCoordinates(data, coordLat, coordLon) {
